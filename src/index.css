@@ -1,0 +1,156 @@
+.Navbar {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  color: aliceblue;
+}
+.buttonsNavContainer {
+  display: flex;
+}
+.tittleContainer {
+  display: flex;
+  align-items: center;
+}
+.buttonNavbar {
+  border: 1px solid white;
+  border-radius: 8px;
+  padding: 2px 8px;
+  margin-left: 10px;
+}
+.cartContainer {
+  border: 1px solid rgb(0, 225, 255);
+  color: rgb(0, 225, 255);
+  border-radius: 8px;
+  padding: 2px 8px;
+}
+.footerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: black;
+  color: aliceblue;
+}
+.header {
+  height: 25vh;
+  background-image: url('assets/imgs/Header.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.capaNegra{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.headerTextContainer {
+  height: 40%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-bottom: 1px solid white;
+}
+.pizzasContainer{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+.cardPizza{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  border: 0.5px solid rgb(185, 182, 182);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.fotoPizzaContainer{
+  width:100%;
+  height: 30vh;
+  display: block;
+}
+.fotoPizzaContainer img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.ingredientesContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 0.5px solid rgb(185, 182, 182);
+  border-top: 0.5px solid rgb(185, 182, 182);
+  align-items: center;
+  padding: 5px;
+}
+.ingredientesContainer h4{
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+.ingredientesContainer p{
+  font-size: 1rem;
+  font-weight: lighter;
+}
+.priceContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.botonContainer{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+.botonVer {
+  padding: 3px 6px;
+  border: 1px solid rgb(35, 35, 35);
+  border-radius: 5px;
+}
+.botonCompra {
+  padding: 3px 6px;
+  border: 1px solid rgb(35, 35, 35);
+  border-radius: 5px;
+  background-color: black;
+  color: aliceblue;
+}
+.formContainer{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 60vh;
+  align-items: center;
+  padding-top: 5vh;
+}
+.elementFormContainer{
+  display: flex;
+  width: 100%;
+  padding-top: 15px;
+}
+.nombreCampo{
+  width: 40%;
+}
+.campo{
+  width: 60%;
+}
+.enviarContainer{
+  display: flex;
+  padding: 3vh;
+  justify-content: center;
+  width: 100%;
+}
+.formulario{
+  width: 30%;
+}
+.formulario input {
+  width: 100%;
+}
